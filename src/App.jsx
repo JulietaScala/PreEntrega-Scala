@@ -5,15 +5,13 @@ import './App.css'
 function App() {
 
   return (
-    <div className="App">
+    <div className="app">
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        <a href="" target="_blank">
           <img src="/images.jpg" className="logo" alt="Vite logo" />
         </a>
       </div>
-      <h1>Padel Shop</h1>
       <NavBar />
-      <ComponenteContainer />
     </div>
   )
 }

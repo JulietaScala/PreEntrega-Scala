@@ -1,13 +1,12 @@
 
 const Buscador = () => {
     const styles = {
-        backgroundColor:'#06101c',
-        width:'120%'
+        width:'130%'
     }
   return (
-    <section style={styles}>
+    <section>
         <form>
-            <input type="text" placeholder='Ingrese un nombre'/>
+            <input style={styles} type="text" placeholder='Buscar productos, marcas y más...'/>
         </form>
     </section>
   )

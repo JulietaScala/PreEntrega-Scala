@@ -1,12 +1,18 @@
+import CartWidget from "../CartWidget/CartWidget"
+import { ComponenteContainer } from "../ComponenteContainer/ComponenteContainer"
+import Titulo from "../Titulo/Titulo"
 
 function NavBar() {
 
     return (
-      <nav className= 'App'>
-        <label>E-commerce</label>
-        <p>Gorras</p>
-        <p>Remeras</p>
-      </nav>
+        <nav>
+            <Titulo titulo='Paletas' />
+            <Titulo titulo='Indumentaria' />
+            <Titulo titulo='Accesorios' />
+            <Titulo titulo='Marcas' />
+            <ComponenteContainer />
+            <CartWidget />            
+        </nav>
     )
   }
 

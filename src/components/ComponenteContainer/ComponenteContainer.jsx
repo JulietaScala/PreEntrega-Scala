@@ -3,11 +3,9 @@ import Titulo from "../Titulo/Titulo"
 
 export const ComponenteContainer = () => {
     let count = 0
-    let titulo = 'Soy titulo de app'
+    let titulo = 'Paletas'
   return (
     <>
-        <Titulo titulo={titulo} subtitulo='Soy sub de app'/>
-
         <Buscador />
     </>
   )
