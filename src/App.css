@@ -46,6 +46,10 @@ div {
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.productos {
+  color: black;
+  list-style: none;
+}
 
 @keyframes logo-spin {
   from {

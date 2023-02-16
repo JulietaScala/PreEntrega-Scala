@@ -1,6 +1,6 @@
 import NavBar from './components/NavBar/NavBar'
-import { ComponenteContainer } from './components/ComponenteContainer/ComponenteContainer'
 import './App.css'
+import { ComponenteProductos } from './components/ComponenteProductos/ComponenteProductos'
 
 function App() {
 
@@ -12,6 +12,7 @@ function App() {
         </a>
       </div>
       <NavBar />
+      <ComponenteProductos/>
     </div>
   )
 }
