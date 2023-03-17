@@ -11,10 +11,10 @@
 
 .app {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -32,6 +32,8 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: stretch;
+  flex-wrap: wrap;
   width: 100%;
 }
 

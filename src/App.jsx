@@ -1,18 +1,17 @@
 import NavBar from './components/NavBar/NavBar'
-import './App.css'
-import { ComponenteProductos } from './components/ComponenteProductos/ComponenteProductos'
+// import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { ItemListContainer } from './components/ItemListContainer/ItemListContainer'
 
 function App() {
 
   return (
     <div className="app">
-      <div>
-        <a href="" target="_blank">
-          <img src="/images.jpg" className="logo" alt="Vite logo" />
-        </a>
+      <div className='menu'>
+        <NavBar />
       </div>
-      <NavBar />
-      <ComponenteProductos/>
+      <ItemListContainer greeting='Hola soy componente ItemListContainer' />
+      {/* <ItemCount initial={1} stock={10} onAdd={onAdd} /> */}
     </div>
   )
 }

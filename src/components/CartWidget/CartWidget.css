@@ -1,0 +1,9 @@
+.linkCart {
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 35px;
+    height: 35px;
+}
